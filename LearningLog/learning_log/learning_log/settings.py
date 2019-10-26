@@ -31,9 +31,6 @@ ALLOWED_HOSTS = []
 # Application definition
 
 INSTALLED_APPS = [
-    # My apps
-    'learning_logs',
-
     # Default django apps.
     'django.contrib.admin',
     'django.contrib.auth',
@@ -41,6 +38,9 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+
+     # My apps
+    'learning_logs',
 ]
 
 MIDDLEWARE = [
